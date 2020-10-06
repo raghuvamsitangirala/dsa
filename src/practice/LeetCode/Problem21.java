@@ -36,8 +36,12 @@ public class Problem21 {
         node2.next = new ListNode(3);
         node2.next.next = new ListNode(4);
 
-        Solution1 solution1 = new Solution1();
+        Problem21 solution1 = new Problem21();
         ListNode newNode = solution1.mergeTwoLists(node1,node2);
-        newNode.show();
+        ListNode temp = newNode;
+        while(temp != null){
+            System.out.print(temp.val + "->");
+            temp = temp.next;
+        }
     }
 }
