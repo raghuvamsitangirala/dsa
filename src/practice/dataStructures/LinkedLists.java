@@ -5,7 +5,7 @@ public class LinkedLists {
 		for (int i = 0; i < input.length; i++) {
 			head.next = new Node(input[i]);
 			head = head.next;
-			System.out.println(head.val);
+			System.out.print(head.val + "->");
 		}
 	}
 }
