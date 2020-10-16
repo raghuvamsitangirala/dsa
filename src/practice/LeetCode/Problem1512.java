@@ -6,9 +6,6 @@ public class Problem1512 {
                 if(nums[i] == nums[j]){
                     count++;
                 }
-                // else{
-                //     i++;
-                // }
             }
         }
         return count;
