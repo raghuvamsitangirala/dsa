@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Problem1528 {
     public String restoreString(String s, int[] indices) {
         char[] restored = new char[indices.length];
